@@ -111,24 +111,6 @@ html {
   color: var(--color-text);
   text-decoration: none;
 
-  // &::before {
-  //   content: "";
-  //   position: absolute;
-  //   top: 100%;
-  //   left: 0;
-  //   width: 100%;
-  //   height: 1px;
-  //   background-color: var(--color-background);
-  //   transform: scaleX(0);
-  //   transition: all 0.3s cubic-bezier(0.2, 0.59, 0.44, 0.87);
-  // }
-
-  // &:hover::before {
-  //   transform: scaleX(1);
-  //   height: 2px;
-  //   background-color: var(--color-text);
-  // }
-
   &--top {
     font-size: 1.6rem;
     transition: 0.3s;

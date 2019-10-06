@@ -18,6 +18,18 @@ h1 {
   font-size: 8rem;
   letter-spacing: 1px;
   margin-bottom: 4rem;
+
+  @media only screen and (max-width: 900px) {
+    font-size: 7rem;
+  }
+
+  @media only screen and (max-width: 500px) {
+    font-size: 5.5rem;
+  }
+
+  @media only screen and (max-width: 400px) {
+    font-size: 4.5rem;
+  }
 }
 
 p {

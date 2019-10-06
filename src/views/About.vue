@@ -36,5 +36,23 @@ h2 {
   font-size: 7rem;
   letter-spacing: 1px;
   margin-bottom: 2.5rem;
+
+  @media only screen and (max-width: 900px) {
+    font-size: 6rem;
+  }
+
+  @media only screen and (max-width: 500px) {
+    font-size: 4.5rem;
+  }
+
+  @media only screen and (max-width: 400px) {
+    font-size: 4rem;
+  }
+}
+
+.nav__item {
+  @media only screen and (max-width: 600px) {
+    padding: 0px 1rem;
+  }
 }
 </style>

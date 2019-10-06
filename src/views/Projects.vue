@@ -9,12 +9,17 @@
         <nav class="nav">
           <ul>
             <li class="nav__item">
-              <router-link class="link link--project" :to="{ name: 'Umnitsa' }">Kindergarten Umnitsa</router-link>
+              <router-link
+                class="link link--project"
+                :to="{ name: 'Umnitsa' }"
+                target="_blank"
+              >Kindergarten Umnitsa</router-link>
             </li>
             <li class="nav__item">
               <router-link
                 class="link link--project"
                 :to="{ name: 'AfricanSpirit' }"
+                target="_blank"
               >African Spirit Concert</router-link>
             </li>
           </ul>
@@ -34,5 +39,11 @@ h1 {
 .link--project {
   font-weight: 300;
   font-size: 2.2rem;
+}
+
+.nav__item {
+  @media only screen and (max-width: 700px) {
+    margin-bottom: 1.6rem;
+  }
 }
 </style>

@@ -46,6 +46,10 @@ h1 {
   @media only screen and (max-width: 500px) {
     font-size: 5.5rem;
   }
+
+  @media only screen and (max-width: 400px) {
+    font-size: 4.5rem;
+  }
 }
 
 .typed-text {
@@ -56,8 +60,13 @@ h1 {
     font-size: 1.7rem;
   }
 
+  @media only screen and (max-width: 600px) {
+    font-size: 1.6rem;
+  }
+
   @media only screen and (max-width: 500px) {
     letter-spacing: 10px;
+    font-size: 1.5rem;
   }
 }
 </style>
