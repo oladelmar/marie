@@ -1,18 +1,63 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <router-link class="link link--top" :to="{ name: 'Home' }">Home</router-link>
+
+    <div class="container">
+      <div class="content">
+        <h1>Marie Monami .</h1>
+
+        <nav class="nav">
+          <ul>
+            <li class="nav__item">
+              <router-link class="link" :to="{ name: 'Projects' }">Projects</router-link>
+            </li>
+            <li class="nav__item">
+              <router-link class="link" :to="{ name: 'Skills' }">About</router-link>
+            </li>
+            <li class="nav__item">
+              <router-link class="link" :to="{ name: 'Contact' }">Contact</router-link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <p class="typed-text">Love what you code</p>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'home',
-  components: {
-    HelloWorld
+  name: "Home"
+};
+</script>
+
+<style lang="scss" scoped>
+h1 {
+  font-weight: 700;
+  font-size: 8rem;
+  letter-spacing: 1px;
+  margin-bottom: 2.5rem;
+
+  @media only screen and (max-width: 900px) {
+    font-size: 7rem;
+  }
+
+  @media only screen and (max-width: 500px) {
+    font-size: 5.5rem;
   }
 }
-</script>
+
+.typed-text {
+  font-size: 2rem;
+  letter-spacing: 15px;
+
+  @media only screen and (max-width: 900px) {
+    font-size: 1.7rem;
+  }
+
+  @media only screen and (max-width: 500px) {
+    letter-spacing: 10px;
+  }
+}
+</style>
