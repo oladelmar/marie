@@ -6,7 +6,11 @@
         <span class="js">Vue.js</span>
       </p>
       <p>HTML, CSS, SCSS</p>
-      <p>Node.js - basics</p>
+      <p>Bootstrap, Vuetify</p>
+      <p>Git</p>
+      <p>Jest, Vue Test Utils</p>
+      <p>Node.js, Express - basics</p>
+      <p>MongoDB - basics</p>
     </div>
   </div>
 </template>

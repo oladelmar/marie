@@ -8,7 +8,7 @@
 export default {
   data: () => ({
     theme: {
-      name: "light"
+      name: "dark"
     }
   })
 };
@@ -60,8 +60,6 @@ html {
   text-align: center;
   background-color: var(--color-bg);
   color: var(--color-text);
-
-  position: relative;
 }
 
 .container {
@@ -83,7 +81,7 @@ html {
   &__item {
     position: relative;
     display: inline-block;
-    padding: 0px 2rem;
+    padding: 5px 2rem;
 
     &::before {
       content: "";

@@ -11,6 +11,9 @@
         <span>German</span> - Basic
       </p>
       <p>
+        <span>Romanian</span> - Intermediate
+      </p>
+      <p>
         <span>Russian</span> - Native
       </p>
     </div>
@@ -27,7 +30,6 @@ p {
   padding-bottom: 1.6rem;
 
   & span {
-    // font-weight: 700;
     color: var(--color-accent);
   }
 }

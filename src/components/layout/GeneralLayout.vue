@@ -32,7 +32,7 @@ export default {
 }
 
 .middle {
-  min-height: 85vh;
+  min-height: 82vh;
   width: 95vw;
   margin: auto;
   border: 2px solid var(--color-text);
