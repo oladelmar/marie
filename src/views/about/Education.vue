@@ -19,8 +19,8 @@
 
 <style lang="scss" scoped>
 .university {
-  font-size: 2.2rem;
-  padding: 7rem 0;
+  font-size: 2.1rem;
+  padding-bottom: 7rem;
 
   & h3 {
     padding-bottom: 1.5rem;
@@ -44,7 +44,7 @@
 
   & .highlight {
     font-weight: 700;
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     color: var(--color-accent);
     padding-bottom: 1rem;
   }

@@ -8,11 +8,12 @@
         <span>Spanish</span> - Advanced
       </p>
       <p>
-        <span>German</span> - Basic
-      </p>
-      <p>
         <span>Romanian</span> - Intermediate
       </p>
+      <p>
+        <span>German</span> - Basic
+      </p>
+
       <p>
         <span>Russian</span> - Native
       </p>
@@ -26,7 +27,7 @@
 }
 
 p {
-  font-size: 2.2rem;
+  font-size: 2rem;
   padding-bottom: 1.6rem;
 
   & span {

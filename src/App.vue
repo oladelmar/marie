@@ -62,15 +62,8 @@ html {
   color: var(--color-text);
 }
 
-.container {
-  min-height: 75vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-
-  &--contact {
-    justify-content: center;
-  }
+.content {
+  margin: 7rem 0;
 }
 
 .nav {
@@ -117,5 +110,40 @@ html {
       color: var(--color-accent);
     }
   }
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 7rem;
+  letter-spacing: 1px;
+  margin-bottom: 2.5rem;
+
+  @media only screen and (max-width: 900px) {
+    font-size: 6rem;
+  }
+
+  @media only screen and (max-width: 500px) {
+    font-size: 4.5rem;
+  }
+
+  @media only screen and (max-width: 400px) {
+    font-size: 4rem;
+  }
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  transition: opacity 1s;
+}
+
+.fade-leave {
+}
+
+.fade-leave-active {
+  transition: opacity 1s;
+  opacity: 0;
 }
 </style>
